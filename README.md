@@ -22,7 +22,8 @@
 This completes the setup required.
 
 ####Process:
-1. Triggering a build after a change is pushed to the git repository:<br>
+Triggering a build after a change is pushed to the git repository:<br>
+<hr>
 #####Git setup
 To do this using a 'webhook' go to the settings tab of your git repository and choose hooks and services.
 Configure the hook to have the payload url point to the digital ocean instance.<br> 
