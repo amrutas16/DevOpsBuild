@@ -22,7 +22,7 @@
 This completes the setup required.
 
 ####Process:
-Triggering a build after a change is pushed to the git repository:<br>
+<b>Triggering a build after a change is pushed to the git repository:</b><br>
 <hr>
 #####Git setup:
 To do this using a 'webhook' go to the settings tab of your git repository and choose hooks and services.
@@ -36,7 +36,7 @@ Create a new Jenkins job and configure its source management as github. Enter yo
 Now do a 'git push' and see the new job running on Jenkins.
 <br>
 <br>
-Ability to execute a build job via script or build manager that ensures clean build:<br>
+<b>Ability to execute a build job via script or build manager that ensures clean build:</b><br>
 <hr>
 Make sure you have pom.xml in your git repo.
 ######Jenkins setup:
