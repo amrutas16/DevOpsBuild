@@ -41,7 +41,7 @@ Now do a 'git push' and see the new job running on Jenkins.
 Make sure you have pom.xml in your git repo.
 #####Jenkins setup:
 Configure an existing job on jenkins. Go to the build section and select the option 'Build from maven targets'.<br>
-See [screenshot]() to set up maven goals and build target.
+See [screenshot](https://github.com/amrutas16/DevOpsBuild/blob/master/maven.png) to set up maven goals and build target.
 
 Now do a 'git push' and see the new job building your repository.
 Check the console output to see if the build is a SUCCESS or FAILURE.
