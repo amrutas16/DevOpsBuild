@@ -31,7 +31,9 @@ See [screenshot]().<br>
 Also add the integration service for Jenkins and configure the url to point to the jenkins server running on digital ocean instance.<br> See [screenshot]().<br>
 
 #####Jenkins setup:
-Create a new Jenkins job and configure its source management as github. Enter your repository url and choose the appropriate branch name in the configuration.
+Create a new Jenkins job and configure its source management as github.
+Enter your repository url and choose the appropriate branch name in the configuration.<br>
+See [screenshot](https://github.com/amrutas16/DevOpsBuild/blob/master/sourcecodemgmt.png)
 
 Now do a 'git push' and see the new job running on Jenkins.
 <br>
@@ -50,7 +52,22 @@ Check the console output to see if the build is a SUCCESS or FAILURE.
 <b> Ability to determine failure or success of a build job, and as a result trigger an external event:</b><br>
 <hr>
 #####Jenkins setup:
-Configure an existing job on jenkins. Go to the post build section.
+Configure the system to enable email notifications. Go to Manage Jenkins --> Configure System --> Email Notification and do the setup as seen here [screenshot](https://github.com/amrutas16/DevOpsBuild/blob/master/configureemail.png)
+
+Configure an existing job on jenkins. Go to the post build section and enter the appropriate email address.
+<br>
+<br>
+<b> Ability to have multiple jobs corresponding to multiple branches in a repository:</b><br>
+<hr>
+#####Jenkins SetUp:
+Create another job and configure it to have another branch of the same repository as used in step 1.
+
+#####Git:
+Check out the different branch and make changes to the source file and add,commit and push to see the job running on Jenkins.
+
+###Check out the Screencast here:
+[Screencast]()
+
 
 
 
