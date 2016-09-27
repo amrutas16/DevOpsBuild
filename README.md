@@ -24,16 +24,27 @@ This completes the setup required.
 ####Process:
 Triggering a build after a change is pushed to the git repository:<br>
 <hr>
-#####Git setup
+#####Git setup:
 To do this using a 'webhook' go to the settings tab of your git repository and choose hooks and services.
 Configure the hook to have the payload url point to the digital ocean instance.<br> 
 See [screenshot]().<br>
 Also add the integration service for Jenkins and configure the url to point to the jenkins server running on digital ocean instance.<br> See [screenshot]().<br>
 
-#####Jenkins setup
+#####Jenkins setup:
 Create a new Jenkins job and configure its source management as github. Enter your repository url and choose the appropriate branch name in the configuration.
 
 Now do a 'git push' and see the new job running on Jenkins.
+<br>
+<br>
+Ability to execute a build job via script or build manager that ensures clean build:<br>
+<hr>
+Make sure you have pom.xml in your git repo.
+######Jenkins setup:
+Configure an existing job on jenkins. Go to the build section and select the option 'Build from maven targets'.<br>
+See [screenshot]() to set up maven goals and build target.
+
+Now do a 'git push' and see the new job building your repository.
+Check the console output to see if the build is a SUCCESS or FAILURE.
 
 
 
