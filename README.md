@@ -1,9 +1,9 @@
 #DevOps Build Milestone
 
 ###Team Members:
-1. Akanksha Chandre
-2. Amruta Shintre
-3. Vaibhav Rajadhakshya
+1. Akanksha Chandre achand10
+2. Amruta Shintre ashintr
+3. Vaibhav Rajadhyaksha vrajadh
 
 ###Build section:
 ####Setup:
