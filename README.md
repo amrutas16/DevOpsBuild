@@ -39,14 +39,18 @@ Now do a 'git push' and see the new job running on Jenkins.
 <b>Ability to execute a build job via script or build manager that ensures clean build:</b><br>
 <hr>
 Make sure you have pom.xml in your git repo.
-######Jenkins setup:
+#####Jenkins setup:
 Configure an existing job on jenkins. Go to the build section and select the option 'Build from maven targets'.<br>
 See [screenshot]() to set up maven goals and build target.
 
 Now do a 'git push' and see the new job building your repository.
 Check the console output to see if the build is a SUCCESS or FAILURE.
-
-
+<br>
+<br>
+<b> Ability to determine failure or success of a build job, and as a result trigger an external event:</b><br>
+<hr>
+#####Jenkins setup:
+Configure an existing job on jenkins. Go to the post build section.
 
 
 
