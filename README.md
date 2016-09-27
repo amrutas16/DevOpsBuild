@@ -27,8 +27,8 @@ This completes the setup required.
 #####Git setup:
 To do this using a 'webhook' go to the settings tab of your git repository and choose hooks and services.
 Configure the hook to have the payload url point to the digital ocean instance.<br> 
-See [screenshot]().<br>
-Also add the integration service for Jenkins and configure the url to point to the jenkins server running on digital ocean instance.<br> See [screenshot]().<br>
+See [screenshot](https://github.com/amrutas16/DevOpsBuild/blob/master/webhooks).<br>
+Also add the integration service for Jenkins and configure the url to point to the jenkins server running on digital ocean instance.<br> See [screenshot](https://github.com/amrutas16/DevOpsBuild/blob/master/services.png).<br>
 
 #####Jenkins setup:
 Create a new Jenkins job and configure its source management as github.
@@ -66,7 +66,7 @@ Create another job and configure it to have another branch of the same repositor
 Check out the different branch and make changes to the source file and add,commit and push to see the job running on Jenkins.
 
 ###Check out the Screencast here:
-[Screencast]()
+[Screencast](https://www.youtube.com/watch?v=qWCNdithWeU&feature=youtu.be)
 
 
 
