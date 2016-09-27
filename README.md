@@ -27,8 +27,8 @@ Triggering a build after a change is pushed to the git repository:<br>
 #####Git setup
 To do this using a 'webhook' go to the settings tab of your git repository and choose hooks and services.
 Configure the hook to have the payload url point to the digital ocean instance.<br> 
-See screenshot.<br>
-Also add the integration service for Jenkins and configure the url to point to the jenkins server running on digital ocean instance.<br> See screenshot.<br>
+See [screenshot].<br>
+Also add the integration service for Jenkins and configure the url to point to the jenkins server running on digital ocean instance.<br> See [screenshot].<br>
 
 #####Jenkins setup
 Create a new Jenkins job and configure its source management as github. Enter your repository url and choose the appropriate branch name in the configuration.
