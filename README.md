@@ -73,7 +73,7 @@ The build history can be seen on the Jenkins UI.
 [Dev job build trend](./buildHistory2.png)
 
 ###Check out the Screencast here:
-![](https://www.youtube.com/watch?v=qWCNdithWeU&feature=youtu.be)
+[Screencast](https://www.youtube.com/watch?v=qWCNdithWeU&feature=youtu.be)
 
 ###Contribution:
 1. Jenkins setup and configuration : Akanksha,Amruta and Vaibhav
