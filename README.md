@@ -5,7 +5,7 @@
 2. Amruta Shintre - ashintr
 3. Vaibhav Rajadhyaksha - vrajadh
 
-####Contribution:
+###Contribution:
 1. Jenkins setup and configuration : Akanksha,Amruta and Vaibhav
 2. Webhooks configuration : Akanksha,Amruta and Vaibhav
 3. Maven setup and code : Akanksha,Amruta and Vaibhav
@@ -70,8 +70,7 @@ Create another job and configure it to have another branch of the same repositor
 #####Git:
 Check out the different branch and make changes to the source file and add,commit and push to see the job running on Jenkins.
 
-<b> Build history</b><br>
-<hr>
+####Build history
 The build history can be seen on the Jenkins UI.
 
 [Dev job build history](./buildHistory1.png)
