@@ -77,5 +77,6 @@ The build history can be seen on the Jenkins UI.
 
 ###Contribution:
 1. Jenkins setup and configuration : Akanksha,Amruta and Vaibhav
-2. Webhooks configuration : Akanksha,Amruta and Vaibhav
-3. Maven setup and code : Akanksha,Amruta and Vaibhav
+2. Webhooks configuration : Akanksha, Amruta and Vaibhav
+3. Maven setup and code : Akanksha, Amruta and Vaibhav
+4. Screencast : Amruta
