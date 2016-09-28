@@ -1,1 +1,1 @@
-This is the dev branch. A push to this branch triggers a dev build job in Jenkins. config.xml is the config file of the dev job.
+This is the release branch. A push to this branch triggers a release build job in Jenkins. config.xml is the config file of the release job.
