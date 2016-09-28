@@ -68,6 +68,10 @@ Check out the different branch and make changes to the source file and add,commi
 ###Check out the Screencast here:
 [Screencast](https://www.youtube.com/watch?v=qWCNdithWeU&feature=youtu.be)
 
+#####Build history
+The build history can be seen on the Jenkins UI.
+[Dev job build history](./buildHistory1.png)
+[Dev job build trend](./buildHistory2.png)
 
 
 
