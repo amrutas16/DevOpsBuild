@@ -1,11 +1,11 @@
 #DevOps Build Milestone
 
 ###Team Members:
-1. Akanksha Chandre achand10
-2. Amruta Shintre ashintr
-3. Vaibhav Rajadhyaksha vrajadh
+1. Akanksha Chandre - achand10
+2. Amruta Shintre - ashintr
+3. Vaibhav Rajadhyaksha - vrajadh
 
-###Build section:
+###Build:
 ####Setup:
 1. Create a digital ocean image to host and run jenkins. Make sure you have your ssh key configured to create a digital ocean droplet successfully.
 2. ssh into the droplet after it is successfully created from your terminal using ssh root@ip_of_droplet
@@ -65,13 +65,10 @@ Create another job and configure it to have another branch of the same repositor
 #####Git:
 Check out the different branch and make changes to the source file and add,commit and push to see the job running on Jenkins.
 
-###Check out the Screencast here:
-[Screencast](https://www.youtube.com/watch?v=qWCNdithWeU&feature=youtu.be)
-
-#####Build history
+####Build history
 The build history can be seen on the Jenkins UI.
-[Dev job build history](./buildHistory1.png)
+[Dev job build history](./buildHistory1.png)__
 [Dev job build trend](./buildHistory2.png)
 
-
-
+###Check out the Screencast here:
+[Screencast](https://www.youtube.com/watch?v=qWCNdithWeU&feature=youtu.be)
