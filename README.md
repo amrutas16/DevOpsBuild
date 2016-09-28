@@ -5,6 +5,11 @@
 2. Amruta Shintre - ashintr
 3. Vaibhav Rajadhyaksha - vrajadh
 
+####Contribution:
+1. Jenkins setup and configuration : Akanksha,Amruta and Vaibhav
+2. Webhooks configuration : Akanksha,Amruta and Vaibhav
+3. Maven setup and code : Akanksha,Amruta and Vaibhav
+
 ###Build:
 ####Setup:
 1. Create a digital ocean image to host and run jenkins. Make sure you have your ssh key configured to create a digital ocean droplet successfully.
@@ -65,7 +70,8 @@ Create another job and configure it to have another branch of the same repositor
 #####Git:
 Check out the different branch and make changes to the source file and add,commit and push to see the job running on Jenkins.
 
-####Build history
+<b> Build history</b><br>
+<hr>
 The build history can be seen on the Jenkins UI.
 
 [Dev job build history](./buildHistory1.png)
@@ -75,7 +81,4 @@ The build history can be seen on the Jenkins UI.
 ###Check out the Screencast here:
 [Screencast](https://www.youtube.com/watch?v=qWCNdithWeU&feature=youtu.be)
 
-###Contribution:
-1. Jenkins setup and configuration : Akanksha,Amruta and Vaibhav
-2. Webhooks configuration : Akanksha,Amruta and Vaibhav
-3. Maven setup and code : Akanksha,Amruta and Vaibhav
+
